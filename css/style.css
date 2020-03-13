@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+button {
+    cursor: pointer;
+}
+
+.caller-page {
+    width: 450px;
+    text-align: center;
+    background-color: #2b2b2b;
+    border: 2px solid #22090c;
+    border-radius: 5px;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .1);
+}
+
+.caller-title {
+    font-size: 24px;
+    text-align: center;
+    color: #e2e2e2;
+    padding: 28px 0 20px;
+    font-weight: normal;
+    line-height: 20px;
+    border-bottom: 2px solid #1e1e1e;
+    box-shadow: 0 1px rgba(255, 255, 255, .1);
+}
+
+.caller-block-img {
+    padding: 35px 0 20px;
+}
+
+.caller-img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 22px solid #181818;
+    width: 172px;
+    margin-bottom: 22px;
+}
+
+.caller-text {
+    font-size: 18px;
+    color: #d3d3d3;
+    line-height: 20px;
+    padding-left: 15px;
+}
+
+.caller-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.caller-btn {
+    width: 223px;
+    padding: 26px 0;
+    border: 4px solid #161616;
+    box-shadow: -1px -1px #4e4e4e;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.btn-orange,
+.btn-sky {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.btn-red,
+.btn-green {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.btn-orange {
+    background-image: url(../img/message.png), linear-gradient(to bottom, #fac648 48%, #a56a0e 48%);
+}
+
+.btn-sky {
+    background-image: url(../img/end-the-call.png), linear-gradient(to bottom, #48d6fa 48%, #177cb1 48%);
+}
+
+.btn-red {
+    background-image: url(../img/to\ disable\ the\ call.png), linear-gradient(to bottom, #fa4848 48%, #a50e0e 48%);
+}
+
+.btn-green {
+    background-image: url(../img/accept.png), linear-gradient(to bottom, #c5fa48 48%, #77b117 48%);
+}
