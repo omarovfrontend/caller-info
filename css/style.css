@@ -40,11 +40,11 @@ button {
     box-shadow: 0 1px rgba(255, 255, 255, .1);
 }
 
-.caller-block-img {
+.caller-user {
     padding: 35px 0 20px;
 }
 
-.caller-img {
+.caller-user-image {
     display: block;
     margin: 0 auto;
     border-radius: 50%;
@@ -53,7 +53,7 @@ button {
     margin-bottom: 22px;
 }
 
-.caller-text {
+.caller-user-text {
     font-size: 18px;
     color: #d3d3d3;
     line-height: 20px;
